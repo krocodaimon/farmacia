@@ -12,7 +12,7 @@ function Navbar() {
         />
       </Link>
       <div className="flex gap-4">
-        <Link to="/categorias" className="text-white text-lg font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out transform hover:bg-yellow-400 hover:text-white hover:scale-105">
+        <Link to="/categoria" className="text-white text-lg font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out transform hover:bg-yellow-400 hover:text-white hover:scale-105">
           Categorias
         </Link>
       </div>
