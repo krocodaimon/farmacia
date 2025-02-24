@@ -9,6 +9,7 @@ interface UserProviderProps {
     children: ReactNode
 }
 
+
 export const UserContext = createContext({} as UserContextProps)
 
 export function UserProvider({ children }: UserProviderProps) {
